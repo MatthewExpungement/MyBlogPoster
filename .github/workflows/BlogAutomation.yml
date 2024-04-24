@@ -1,7 +1,9 @@
 name: Blog Automation
 
 on:
-    workflow_dispatch
+  schedule:
+    - cron: '5 4 * * *' #Every Day
+  workflow_dispatch: {}
 
 jobs:
   scraper:
