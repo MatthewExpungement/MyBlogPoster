@@ -1,8 +1,6 @@
 name: Blog Automation
 
 on:
-  schedule:
-    - cron: '5 4 * * *' #Every Day
   workflow_dispatch: {}
 
 jobs:
